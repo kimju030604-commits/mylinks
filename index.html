@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim Jubee - Link Hub</title>
+    
+    <!-- Load Tailwind CSS --><script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcfcfc; /* Very light, soft background */
+            background-image: linear-gradient(135deg, #fef2f4 0%, #fefcfd 100%);
+            min-height: 100vh;
+        }
+        /* Custom styles for link buttons */
+        .link-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(244, 114, 182, 0.3), 0 4px 6px -2px rgba(244, 114, 182, 0.1);
+        }
+    </style>
+</head>
+<body class="flex items-start justify-center pt-16 sm:pt-24 px-4">
+
+    <!-- Reverted max-width to original smaller size --><div class="w-full max-w-sm sm:max-w-md bg-white rounded-2xl shadow-xl p-6 sm:p-8 text-center">
+        
+        <!-- Profile Section with Image (Using the stable placeholder) --><div class="flex flex-col items-center mb-8">
+            
+            <img src="images/kimichou.jpg" alt="Kim Ju Bii Profile" alt="Kim Ju Bii Profile"  
+                 onerror="this.onerror=null;this.src='https://placehold.co/128x128/9ca3af/ffffff?text=KJ';"
+                 class="w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover mb-4 border-4 border-pink-300 shadow-lg"/>
+            
+            <h1 class="text-3xl font-extrabold text-gray-800 tracking-tight">Somnang Kimchou</h1>
+            <p class="text-md text-pink-600 font-semibold mt-1">@kim_ju_bii</p>
+            <p class="mt-3 text-gray-600 text-sm sm:text-base max-w-xs">
+                Skincare Reviewer / Content Creator / Online Store
+            </p>
+        </div>
+
+        <!-- Links Section (Restored to simple vertical stack) --><div class="space-y-4">
+            
+            <!-- Link 1: Telegram --><a href="https://t.me/kimjubee" target="_blank" class="link-button flex items-center justify-center w-full py-3 bg-blue-500 text-white font-bold rounded-xl shadow-lg hover:bg-blue-600 transition duration-150">
+                <!-- Telegram Icon (Simple SVG) --><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M15 10l-4 4 6 6 4-16-18 7 4 2 2 6 3-4"></path>
+                </svg>
+                Telegram: @kimjubee
+            </a>
+
+            <!-- Link 2: TikTok (Text Only, now properly centered) --><a href="https://www.tiktok.com/@juu_bee_28" target="_blank" class="link-button flex items-center justify-center w-full py-3 bg-black text-white font-bold rounded-xl shadow-lg hover:bg-gray-900 transition duration-150">
+                TikTok: @juu_bee_28
+            </a>
+
+            <!-- Link 3: Instagram --><a href="https://instagram.com/kim_ju_bii" target="_blank" class="link-button flex items-center justify-center w-full py-3 bg-gradient-to-r from-pink-500 to-red-500 text-white font-bold rounded-xl shadow-lg hover:bg-pink-700 transition duration-150">
+                <!-- Instagram Icon (Simple SVG) --><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                Instagram: kim_ju_bii
+            </a>
+            
+            <!-- Link 4: Facebook --><a href="https://www.facebook.com/kim.chou.98229241" target="_blank" class="link-button flex items-center justify-center w-full py-3 bg-blue-700 text-white font-bold rounded-xl shadow-lg hover:bg-blue-800 transition duration-150">
+                <!-- Facebook Icon (Stable SVG) --><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3" viewBox="0 0 24 24" fill="white">
+                    <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.123 8.438 9.879V14.65H8.047V12h2.391V9.58c0-2.348 1.43-3.633 3.513-3.633 1.002 0 1.86.075 2.107.108v2.4l-1.42.001c-1.114 0-1.334.53-1.334 1.312V12h2.895l-.468 2.65h-2.427v7.229C18.343 21.123 22 16.991 22 12c0-5.523-4.477-10-10-10z"/>
+                </svg>
+                Facebook: kim.chou.98229241
+            </a>
+
+            <!-- Link 5: Email (mailto with Subject and Body) --><a href="mailto:kim.ju030604@gmail.com?subject=Work%20Inquiry%20for%20Kim%20Chou&body=Best%20regards.%0A100%20Years%20Friend" class="link-button flex items-center justify-center w-full py-3 bg-indigo-500 text-white font-bold rounded-xl shadow-lg hover:bg-indigo-600 transition duration-150">
+                <!-- Email Icon (Simple SVG) --><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,14 2,6"></polyline>
+                </svg>
+                Email: kim.ju030604@gmail.com
+            </a>
+
+            <!-- Link 6: Contact for Work (Phone) --><a href="tel:+85577578579" class="link-button flex items-center justify-center w-full py-3 bg-green-500 text-white font-bold rounded-xl shadow-lg hover:bg-green-600 transition duration-150">
+                <!-- Phone Icon (Simple SVG) --><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-5.6-5.6A19.79 19.79 0 0 1 2 4.18 2 2 0 0 1 4.18 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                Phone Number: +855 77 578 579
+            </a>
+            
+        </div>
+
+    </div>
+
+</body>
+</html>
